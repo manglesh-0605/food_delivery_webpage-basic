@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best online food deliery services | myonlinemeal.com</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="logo.png" alt="myonlinemeal">
+        </div>
+        <ul>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#">About us</a></li>
+            <li class="item"><a href="#client-section">our Clients</a></li>
+            <li class="item"><a href="#contact">contact us</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <h1 class="h-primary">Welcome to MyonlineMeal</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, explicabo?</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </p>
+        <button class="btn">Order Now</button>
+    </section>
+    <section id="services-container">
+        <h1 class="h-primary center">
+            Our services
+        </h1>
+        <div id="services">
+            <div class="box">
+                <img src="1.jpg" alt="image">
+                <h2 class="h-secondary center">Dine in</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempore vitae recusandae
+                    veniam
+                    deleniti
+                    dolorem neque odit corporis mollitia! Amet perferendis incidunt, sed delectus quibusdam et ipsa
+                    vitae, id
+                    vero corrupti optio sit ea.</p>
+            </div>
+            <div class="box">
+                <img src="2.jpg" alt="image">
+                <h2 class="h-secondary center">Fast food corner</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempore vitae recusandae
+                    veniam
+                    deleniti
+                    dolorem neque odit corporis mollitia! Amet perferendis incidunt, sed delectus quibusdam et ipsa
+                    vitae, id
+                    vero corrupti optio sit ea.</p>
+            </div>
+            <div class="box">
+                <img src="3.png" alt="image">
+                <h2 class="h-secondary center">Food ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam tempore vitae recusandae
+                    veniam
+                    deleniti
+                    dolorem neque odit corporis mollitia! Amet perferendis incidunt, sed delectus quibusdam et ipsa
+                    vitae, id
+                    vero corrupti optio sit ea.</p>
+            </div>
+        </div>
+    </section>
+    <section id="client-section">
+        <h1 class="h-primary center">Our Clients</h1>
+        <div id="clients">
+            <div class="client-item">
+                <img src="hp.png" alt="hp logo">
+            </div>
+            <div class="client-item">
+                <img src="apple_logo.png" alt="apple logo">
+            </div>
+            <div class="client-item">
+                <img src="dessert.png" alt="dessert logo">
+            </div>
+            <div class="client-item">
+                <img src="bluerose.png" alt="blue rose logo">
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h1 class="h-primary center">
+            Contact Us
+        </h1>
+        <div class="contact-box">
+            <form action="backend.py">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="myname" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="myemail" id="email" placeholder="example@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mobile">Mobile no.</label>
+                    <input type="phone" name="myphone" id="mobile" required>
+                </div>
+                <div class="form-group">
+                    <label for="remarks">Remarks</label>
+                    <textarea name="client_remark" id="remarks" cols="30" rows="10"></textarea>
+                </div>
+                <!-- TRIED TO INSERT BUTTONS BUT WAS UNSUCCESSFULL LL DO LATER  -->
+                <!-- <div class="form-group form-button">
+                        <input type="submit" value="Submit Now">
+                    </div>
+                    <div class="form-group form-button">
+                        <input type="reset" value="Reset Now">
+                    </div> -->
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="center">
+            copyright &copy; www.MyonlineMeal.com All rights reserved!!
+        </div>
+    </footer>
+
+</body>
+
+</html>
